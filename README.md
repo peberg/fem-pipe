@@ -6,7 +6,7 @@ FEM simulations on pipe geometries
 
 ![](mesh.png)
 
-![](out_2.gif)
+![](div_p.gif)
 
 ## Case: 3D electrostatic
 [source](https://github.com/peberg/fem-pipe/blob/master/pipe_2D_acoustic.ipynb)

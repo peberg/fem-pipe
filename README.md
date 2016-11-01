@@ -1,6 +1,6 @@
 # fem-pipe
-FEM simulations on hypothetical pipe geometries.
-using [PyGimli](http://www.pygimli.org/)
+FEM simulations on hypothetical pipe geometries
+using [PyGimli](http://www.pygimli.org/).
 
 ## Case: 2D acoustic
 [source](https://github.com/peberg/fem-pipe/blob/master/pipe_2D_acoustic.ipynb)

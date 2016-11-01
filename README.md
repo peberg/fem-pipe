@@ -6,7 +6,6 @@ Credits to [PyGimli](http://www.pygimli.org/)
 [source](https://github.com/peberg/fem-pipe/blob/master/pipe_2D_acoustic.ipynb)
 
 ![](mesh.png)
-
 ![](div_p.gif)
 
 ## Case: 3D electrostatic

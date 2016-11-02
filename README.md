@@ -12,7 +12,8 @@ Acoustic wave propagation and pressure signals registered at sensor locations.
 ![](figs/2d_div_p.gif)
 
 ## Case: 3D electrostatic
-[source](https://github.com/peberg/fem-pipe/blob/master/pipe_2D_acoustic.ipynb)
+[source](https://github.com/peberg/fem-pipe/blob/master/pipe_3D_electrostatic2.ipynb)
 
-
-![](figs/3d_geom_raw.png)
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](figs/3d_geom_raw.png)  |  ![](figs/3d_geom_raw.png)

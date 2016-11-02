@@ -408,7 +408,7 @@ threshold1Display.DiffuseColor = [1.0, 1.0, 0.0]
 SetActiveSource(clip1)
 
 # Properties modified on clip1.ClipType
-clip1.ClipType.Origin = [0.0, 0.0, 150.0]
+clip1.ClipType.Origin = [60.0, 0.0, 150.0]
 
 # set active source
 SetActiveSource(outline1)
@@ -504,10 +504,7 @@ clip1Display.RescaleTransferFunctionToDataRange(True)
 clip1Display.SetScalarBarVisibility(renderView1, True)
 
 # Rescale transfer function
-valuesCLUT.RescaleTransferFunction(-0.001, 0.001)
-
-# Rescale transfer function
-valuesCPWF.RescaleTransferFunction(-0.001, 0.001)
+valuesCLUT.RescaleTransferFunction(-0.000003, 0.000003)
 
 # Properties modified on valuesCLUT
 valuesCLUT.NumberOfTableValues = 252
@@ -529,6 +526,56 @@ valuesCLUT.NumberOfTableValues = 24
 
 # toggle 3D widget visibility (only when running from the GUI)
 Hide3DWidgets(proxy=clip1)
+
+###########################
+
+
+# get active view
+renderView1 = GetActiveViewOrCreate('RenderView')
+# uncomment following to set a specific view size
+# renderView1.ViewSize = [660, 497]
+
+# get color legend/bar for valuesCLUT in view renderView1
+valuesCLUTColorBar = GetScalarBar(valuesCLUT, renderView1)
+valuesCLUTColorBar.ComponentTitle = ''
+
+# Properties modified on valuesCLUTColorBar
+valuesCLUTColorBar.TitleColor = [0.0, 0.0, 0.0]
+valuesCLUTColorBar.LabelColor = [0.0, 0.0, 0.0]
+
+# Properties modified on valuesCLUTColorBar
+valuesCLUTColorBar.AutomaticLabelFormat = 0
+
+# Properties modified on valuesCLUTColorBar
+valuesCLUTColorBar.Title = 'E (V)'
+
+# Properties modified on valuesCLUTColorBar
+valuesCLUTColorBar.LabelFormat = '%-#6.1g'
+
+# Properties modified on valuesCLUTColorBar
+valuesCLUTColorBar.NumberOfLabels = 3
+
+# Properties modified on valuesCLUTColorBar
+valuesCLUTColorBar.AutomaticAnnotations = 0
+valuesCLUTColorBar.AspectRatio = 15.0
+
+# Properties modified on valuesCLUTColorBar
+valuesCLUTColorBar.TitleFontFamily = 'Times'
+valuesCLUTColorBar.LabelFontFamily = 'Times'
+
+# Properties modified on valuesCLUTColorBar
+valuesCLUTColorBar.TitleBold = 1
+valuesCLUTColorBar.TitleFontSize = 12
+
+# Properties modified on valuesCLUTColorBar
+valuesCLUTColorBar.TitleFontSize = 10
+valuesCLUTColorBar.LabelFontSize = 9
+
+# Properties modified on valuesCLUTColorBar
+valuesCLUTColorBar.LabelFormat = '%-#2.1e'
+
+# Properties modified on valuesCLUTColorBar
+valuesCLUTColorBar.RangeLabelFormat = '%4.1e'
 
 
 # save screenshot

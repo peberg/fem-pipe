@@ -1,6 +1,6 @@
 # fem-pipe
 FEM simulations on hypothetical pipe geometries
-using [PyGimli](http://www.pygimli.org/), [Tetgen](http://wias-berlin.de/software/tetgen/) and [Paraview](http://www.paraview.org/).
+using [PyGimli](http://www.pygimli.org/), [Tetgen](http://wias-berlin.de/software/tetgen/) and [Paraview](http://www.paraview.org/). The examples shown are for demonstration only.
 
 ## Case: 2D acoustic wave propagation
 [source](https://github.com/peberg/fem-pipe/blob/master/pipe_2D_acoustic.ipynb)
@@ -8,7 +8,7 @@ using [PyGimli](http://www.pygimli.org/), [Tetgen](http://wias-berlin.de/softwar
 2D pipe geometry used for acoustic forward modelling.
 ![](figs/2d_mesh.png)
 
-Acoustic wave propagation and pressure signals registered at sensor locations.
+Acoustic wave propagation and signals registered at sensor locations.
 ![](figs/2d_div_p.gif)
 
 ## Case: 3D electrostatic potential

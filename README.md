@@ -1,5 +1,5 @@
 # fem-pipe
-FEM simulation examples on hypothetical pipe geometries
+FEM simulation examples on hypothetical pipe geometries 
 using [PyGimli](http://www.pygimli.org/), [Tetgen](http://wias-berlin.de/software/tetgen/) and [Paraview](http://www.paraview.org/). The examples were produced for demonstration purposes only.
 
 ## Example 1: 2D acoustic wave propagation

@@ -14,7 +14,7 @@ Acoustic wave propagation and signals registered at sensor locations.
 ## Example 2: 3D electrostatic potential
 [[source](https://github.com/peberg/fem-pipe/blob/master/pipe_3D_electrostatic.ipynb)].
 
-Electrostatic potential resulting from electric current flow in pipeline wall (current electrodes locate towards the nearest model face)
+Electrostatic potential resulting from electric current flow in pipeline wall (current electrodes locate towards the nearest model face). It might be interesting to note that the problem of thermal conduction would be handled with the exact same partial differential equation.
 
 Mesh             |  Electrostatic potential
 :-------------------------:|:-------------------------:
